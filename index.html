@@ -27,21 +27,21 @@
         }
     </style>
 
-<title>CHI Quickfire Map></title>
+<title Team CHI Donut Map></title>
 </head> 
 <body> 
-<div id="map"></div>
+<div id="map"></div></div>
 
 <script> 
 	var map = L.map('map').setView([41.8731903, -96.8420169], 5); 
 		L.tileLayer('http://{s}.tiles.mapbox.com/v3/pinchme123.jno0oa02/{z}/{x}/{y}.png', {
-		attribution: 'Map data & copy; <a href="http://mapbox.com">MapBox</a> | Navigation bar &copy <a href="http://getbootstrap.com/2.3.2/">Bootstrap</a>',
+		attribution: 'Map data &copy; <a href="http://mapbox.com">MapBox</a> | Navigation bar &copy <a href="http://getbootstrap.com/2.3.2/">Bootstrap</a>',
 		maxZoom: 18,
 		minZoom: 4
 	}).addTo(map);
 	
 	L.marker([41.921886, -83.422787]).addTo(map)
-    .bindPopup(<!--Christine-->)
+    .bindPopup(<h3>Utica, NY</h3>Utica, NY is a mid-size city of 62,000 in Upstate New York. Utica is known as the "gateway to the Adirondacks" because it boarders the 6 million acre Adirondack Park. Uticans take their pizza, wings and winter sports very seriously. <a href="http://en.wikipedia.org/wiki/Utica,_New_York">Utica on Wiki</a>)
     .closePopup();
 	
 	L.marker([46.893892, -96.780419]).addTo(map)
