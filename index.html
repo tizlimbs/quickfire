@@ -64,13 +64,7 @@
 		minZoom: 4
 	}).addTo(map);
 	
-	var brianIcon = L.icon({
-		iconUrl: 'Brian.png',
-		shadowUrl: 'pin_shadow.png',
-		iconAnchor:[12, 41],
-		popupAnchor:[1, -34],
-		shadowSize:[41, 41]
-	});
+
 	L.marker([43.0966, -75.2319]).addTo(map)
     .bindPopup("Utica, NY <br><br> Jennifer's hometown is on the River Raisin. It's a small suburban town south of Detroit and north of Toledo, OH <br><br> <a href='http://en.wikipedia.org/wiki/Monroe,_Michigan'>TEST</a>")
     .closePopup();
@@ -79,7 +73,7 @@
     .bindPopup(Battle Creek, MI'A pretty CSS3 popup. <br> Easily customizable.')
     .closePopup();
 	
-	L.marker([36.1667, -86.7833], {icon: brianIcon}).addTo(map)
+	L.marker([36.1667, -86.7833]).addTo(map)
     .bindPopup("<h4>Nashville, TN</h4> Brian's hometown is in eastern Washington on the breathtaking Columbia River, near the <a href='http://www.fws.gov/refuge/Hanford_Reach/'>Hanford Reach</a>. It is one of the three main cities that make up the Tri-Cities.<br><br><a href='http://en.wikipedia.org/wiki/Pasco,_Washington'>Learn More</a>")
     .closePopup();
 
